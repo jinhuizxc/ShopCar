@@ -1,4 +1,4 @@
-package com.jinhui.shopcar;
+package com.jinhui.shopcar.adapter;
 
 import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
@@ -7,8 +7,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.jinhui.shopcar.GoodsItem;
+import com.jinhui.shopcar.R;
+import com.jinhui.shopcar.ShoppingCartActivity;
+
 import java.util.ArrayList;
-import java.util.zip.Inflater;
 
 public class TypeAdapter extends RecyclerView.Adapter<TypeAdapter.ViewHolder> {
     public int selectTypeId;

@@ -22,6 +22,10 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.flipboard.bottomsheet.BottomSheetLayout;
+import com.jinhui.shopcar.adapter.GoodsAdapter;
+import com.jinhui.shopcar.adapter.SelectAdapter;
+import com.jinhui.shopcar.adapter.TypeAdapter;
+
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import se.emilsjolander.stickylistheaders.StickyListHeadersListView;

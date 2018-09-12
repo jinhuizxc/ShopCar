@@ -1,4 +1,4 @@
-package com.jinhui.shopcar;
+package com.jinhui.shopcar.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +11,11 @@ import android.view.animation.TranslateAnimation;
 import android.widget.BaseAdapter;
 import android.widget.RatingBar;
 import android.widget.TextView;
+
+import com.jinhui.shopcar.GoodsItem;
+import com.jinhui.shopcar.R;
+import com.jinhui.shopcar.ShoppingCartActivity;
+
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import se.emilsjolander.stickylistheaders.StickyListHeadersAdapter;

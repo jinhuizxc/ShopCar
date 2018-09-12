@@ -1,4 +1,4 @@
-package com.jinhui.shopcar;
+package com.jinhui.shopcar.adapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.util.SparseArray;
@@ -6,6 +6,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.jinhui.shopcar.GoodsItem;
+import com.jinhui.shopcar.R;
+import com.jinhui.shopcar.ShoppingCartActivity;
+
 import java.text.NumberFormat;
 
 
